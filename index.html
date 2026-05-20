@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFR2GFKT75"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-RFR2GFKT75');
+  </script> -->
+  <!-- Google Tag Manager -->
+  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  })(window,document,'script','dataLayer','GTM-NC38VTD');</script> -->
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="refresh" content="0; URL=https://cs.stanford.edu/~leoyuan/"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<!-- <meta name="google-site-verification" content="u_--0s_Uw50r4zCgRrzltkmFhNCduYOJwPGlKVTuNJU" /> -->
+
+  <title>Tianyi Zheng</title>
+  
+
+  <link rel="shortcut icon" href="images/img_logo.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+</script>
+<![endif]-->
+
+  <script type="text/javascript">
+    function ShowHide(divId, linkDivId) {
+        if(document.getElementById(divId).style.display == 'none') {
+            document.getElementById(divId).style.display='block';
+            document.getElementById(linkDivId).style.display='none'; // Hide the "read more" link
+        }
+        else {
+            document.getElementById(divId).style.display = 'none';
+        }
+    }
+  </script>
+
+  <style>
+    /* Shared style for dated list items */
+    li.indented {
+        position: relative;
+        padding-left: 90px; /* Adjust this value to align with date labels */
+    }
+
+    li.indented::before {
+        content: attr(data-date);
+        position: absolute;
+        left: 0;
+        top: 0;
+        white-space: nowrap;
+    }
+  </style>
+  
+
+  
+</head>
+
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC38VTD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->
+
+    <header class="site-header">
+
+  <div class="wrapper">
+<nav class="site-nav">
+  <a href="#" class="menu-icon">
+    <svg viewBox="0 0 18 15">
+      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+    </svg>
+  </a>
+
+  <div class="trigger">
+    <a class="page-link" href="#bio"><b>Biography</b></a>
+    <a class="page-link" href="#timeline"><b>Experiences</b></a>
+    <a class="page-link" href="#publications"><b>Publications</b></a>
+    <!-- <a class="page-link" href="#codebase"><b>GitHub</b></a> -->
+    <a class="page-link" href="#awards"><b>Honors & Awards</b></a>
+    <a class="page-link" href="#academicservices"><b>Academic Services </b></a>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+      <span class="theme-icon" aria-hidden="true"></span>
+      <span class="theme-label">Light Mode</span>
+    </button>
+    <!--<a class="page-link" href="#otherprojects">Projects</a>-->
+    <!-- Button for Posts -->
+  </div>
+</nav>
+  </div>
+</header>
+
+  <div id="profile-cover" class="cover shallow-bg img-responsive"> 
+    <div id="profile-namecard" class="profile-wrapper wrapper-light">
+      <div id="my-pic" class="profile-col profile-col-1">
+        <img id="profile-avatar" src="images/img_logo.png" alt="Me" class="circle-img border-dark" />
+      </div>
+      <div id="my-contact" class="profile-col profile-col-2">
+        <div id="my-name" class="text-grey-dark">
+          Tianyi Zheng<br>
+        </div>
+        <div id="my-title" class="text-grey">
+          Ph.D. in Electronic Engineering<br>
+          Shanghai Jiao Tong University, Shanghai, China<br>
+        </div>
+        <div id="my-email" class="text-grey-light">
+          tyzheng  (at) sjtu.edu.cn
+        </div>
+
+	</div>
+        <div class="social-media" style="margin-left:30px;">
+          <a href="https://scholar.google.com.hk/citations?user=ojUZAN0AAAAJ&hl=zh-CN" target="_blank" class="icon-button linkedin" style="margin-right:6px;">
+            <i class="ai ai-google-scholar-square icon-linkedin"></i>
+            <span></span>
+          </a>
+          <a href="https://orcid.org/0009-0007-5270-4746" target="_blank" class="icon-button orcid" style="margin-right:6px;">
+            <i class="ai ai-orcid"></i>
+            <span></span>
+          </a>
+          <a href="https://github.com/RachelTeamo" target="_blank" class="icon-button github" style="margin-right:6px;">
+            <i class="fa fa-github icon-github"></i>
+            <span></span>
+          </a>
+          <a href="mailto:tyzheng@sjtu.edu.cn" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-envelope icon-linkedin"></i>
+            <span></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- <div id="my-desc" class="profile-col profile-col-2 hide">
+        <div id="my-desc-title">
+          Another me.
+        </div>
+        <div id="my-desc-content">
+          I enjoy running, traveling, hiking, movies, music and so much more<br>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <!-- <script type="text/javascript">
+    function deepFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/deep-me.jpg');
+      $('#profile-avatar').removeClass('border-dark');
+      $('#profile-avatar').addClass('border-bright');
+
+      $('#profile-cover').removeClass('shallow-bg');
+      $('#profile-cover').addClass('deep-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-light');
+      $('#profile-namecard').addClass('wrapper-dark');
+      
+      $('#my-desc').removeClass('hide');
+      $('#my-contact').addClass('hide');    
+      // console.log('Move in now...');
+    }
+
+    function shallowFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/me.jpg');
+      $('#profile-avatar').removeClass('border-bright');
+      $('#profile-avatar').addClass('border-dark');
+
+      $('#profile-cover').removeClass('deep-bg');
+      $('#profile-cover').addClass('shallow-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-dark');
+      $('#profile-namecard').addClass('wrapper-light');
+      
+      $('#my-contact').removeClass('hide');
+      $('#my-desc').addClass('hide');
+      // console.log('Move out now...');
+    }
+
+    $(function() { 
+      $('#my-pic').hover(deepFeature, shallowFeature);
+    })
+
+  </script> -->
+
+<!-- =======================
+     Main content (ONE wrapper)
+     ======================= -->
+<div class="page-content">
+  <div class="wrapper">
+
+    <div id="bio" class="bio">
+
+      <h1 class="md-heading text-left">
+        <i class="fa fa-id-card" aria-hidden="true"></i>
+        Biography
+      </h1>
+      <div class="bio-body" style="overflow:hidden;">
+        <p>
+          I am a researcher at <b><a href="https://github.com/vivoCameraResearch" target="_blank">BlueImage Lab</a></b>, vivo Mobile Communication Co., Ltd, working with <b><a href="https://libraboli.github.io/" target="_blank">Dr. Bo Li</a></b>.
+          I received my Ph.D. from <b><a href="https://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a></b> in 2025, advised by <b><a href="https://ieeexplore.ieee.org/author/37087143775" target="_blank">Prof. Jia Wang</a></b>, and my B.Eng. from <b><a href="https://www.xidian.edu.cn/" target="_blank">Xidian University</a></b> in 2020.
+          During my studies, I interned at <b><a href="https://open.youtu.qq.com/#/" target="_blank">Tencent Youtu Lab</a></b>, <b><a href="https://github.com/vivoCameraResearch" target="_blank">vivo BlueImage Lab</a></b>, <b><a href="https://e.qq.com/ads" target="_blank">Tencent AMS</a></b>, and <b><a href="https://ai.midea.com/#/" target="_blank">Midea AI Lab</a></b>.
+          <br>
+          Recently, my research interests focus on generative models and Multimodal Large Language Models.
+          If you are interested in chatting with me, feel free to <b><a href="mailto:tyzheng@sjtu.edu.cn">drop me an email</a></b>.
+          <br><br>
+        </p>
+
+        <div style="width: 48%; float:left;">
+          <h3>
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+            <strong>Work & Intern Experience</strong>
+          </h3>
+          <div style="margin-bottom:8px; padding:8px 10px; border-left:3px solid #1d4ed8; background:#f0f4ff; border-radius:0 4px 4px 0; display:flex; align-items:center;">
+            <img src="logo/vivo.png" alt="vivo" style="height:18px; vertical-align:middle; margin-right:8px;">
+            <div style="flex:1;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <b style="font-size:0.9em;"><a href="https://github.com/vivoCameraResearch" target="_blank">BlueImage Lab, vivo</a></b>
+                <span style="background:#1d4ed8;color:#fff;border-radius:3px;padding:1px 6px;font-size:0.65em;">Work</span>
+              </div>
+              <div style="font-size:0.8em; color:#1d4ed8; margin-top:2px;">Researcher · Jul. 2025 - Present</div>
+            </div>
+          </div>
+          <div style="margin-bottom:8px; padding:8px 10px; border-left:3px solid #6b7280; background:#f8f8f8; border-radius:0 4px 4px 0; display:flex; align-items:center;">
+            <img src="logo/ams.png" alt="AMS" style="height:18px; vertical-align:middle; margin-right:8px;">
+            <div style="flex:1;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <b style="font-size:0.9em;"><a href="https://e.qq.com/ads" target="_blank">Tencent AMS</a></b>
+                <span style="background:#6b7280;color:#fff;border-radius:3px;padding:1px 6px;font-size:0.65em;">Intern</span>
+              </div>
+              <div style="font-size:0.8em; color:#6b7280; margin-top:2px;">Research Intern · Mar. 2025 - Jun. 2025</div>
+            </div>
+          </div>
+          <div style="margin-bottom:8px; padding:8px 10px; border-left:3px solid #6b7280; background:#f8f8f8; border-radius:0 4px 4px 0; display:flex; align-items:center;">
+            <img src="logo/vivo.png" alt="vivo" style="height:18px; vertical-align:middle; margin-right:8px;">
+            <div style="flex:1;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <b style="font-size:0.9em;"><a href="https://github.com/vivoCameraResearch" target="_blank">BlueImage Lab, vivo</a></b>
+                <span style="background:#6b7280;color:#fff;border-radius:3px;padding:1px 6px;font-size:0.65em;">Intern</span>
+              </div>
+              <div style="font-size:0.8em; color:#6b7280; margin-top:2px;">Research Intern · Oct. 2023 - Mar. 2025</div>
+            </div>
+          </div>
+          <div style="margin-bottom:8px; padding:8px 10px; border-left:3px solid #6b7280; background:#f8f8f8; border-radius:0 4px 4px 0; display:flex; align-items:center;">
+            <img src="logo/youtu.jpg" alt="Youtu" style="height:18px; vertical-align:middle; margin-right:8px;">
+            <div style="flex:1;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <b style="font-size:0.9em;"><a href="https://open.youtu.qq.com/#/" target="_blank">Tencent Youtu Lab</a></b>
+                <span style="background:#6b7280;color:#fff;border-radius:3px;padding:1px 6px;font-size:0.65em;">Intern</span>
+              </div>
+              <div style="font-size:0.8em; color:#6b7280; margin-top:2px;">Research Intern · Jan. 2022 - Oct. 2023</div>
+            </div>
+          </div>
+          <div style="margin-bottom:8px; padding:8px 10px; border-left:3px solid #6b7280; background:#f8f8f8; border-radius:0 4px 4px 0; display:flex; align-items:center;">
+            <img src="logo/midea.png" alt="Midea" style="height:18px; vertical-align:middle; margin-right:8px;">
+            <div style="flex:1;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <b style="font-size:0.9em;"><a href="https://ai.midea.com/#/" target="_blank">Midea AI Lab</a></b>
+                <span style="background:#6b7280;color:#fff;border-radius:3px;padding:1px 6px;font-size:0.65em;">Intern</span>
+              </div>
+              <div style="font-size:0.8em; color:#6b7280; margin-top:2px;">Research Intern · Jul. 2021 - Dec. 2021</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="width: 48%; float:right;">
+          <h3>
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <strong>Education</strong>
+          </h3>
+          <div style="margin-bottom:10px; padding:8px 12px; border-left:3px solid #1d4ed8; background:#f0f4ff; border-radius:0 5px 5px 0; display:flex; align-items:center;">
+            <img src="logo/sjtu.png" alt="SJTU" style="width:40px; height:40px; margin-right:10px; border-radius:4px;">
+            <div>
+              <div style="font-weight:bold; font-size:0.95em;">Shanghai Jiao Tong University</div>
+              <div style="font-size:0.85em; color:#1d4ed8; font-weight:600; margin-top:2px;">Ph.D. in Electronic Engineering</div>
+              <div style="font-size:0.82em; color:#6b7280; margin-top:1px;">Sep. 2020 – Jun. 2025</div>
+              <div style="font-size:0.82em; margin-top:3px;">Advisor: <a href="https://ieeexplore.ieee.org/author/37087143775" target="_blank">Prof. Jia Wang</a></div>
+            </div>
+          </div>
+          <div style="padding:8px 12px; border-left:3px solid #7c3aed; background:#f5f3ff; border-radius:0 5px 5px 0; display:flex; align-items:center;">
+            <img src="logo/xidian.png" alt="Xidian" style="width:40px; height:40px; margin-right:10px; border-radius:4px;">
+            <div>
+              <div style="font-weight:bold; font-size:0.95em;">Xidian University</div>
+              <div style="font-size:0.85em; color:#7c3aed; font-weight:600; margin-top:2px;">B.Eng. in Electronic Engineering</div>
+              <div style="font-size:0.82em; color:#6b7280; margin-top:1px;">Sep. 2016 – Jun. 2020</div>
+            </div>
+          </div>
+
+          <div style="margin-top:15px;">
+            <h3>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <strong>Research Interests</strong>
+            </h3>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:8px;">
+              <span style="background:#e0f2fe; color:#0369a1; padding:3px 10px; border-radius:12px; font-size:0.8em; font-weight:500;">Generative Models</span>
+              <span style="background:#e0f2fe; color:#0369a1; padding:3px 10px; border-radius:12px; font-size:0.8em; font-weight:500;">MLLM</span>
+              <span style="background:#e0f2fe; color:#0369a1; padding:3px 10px; border-radius:12px; font-size:0.8em; font-weight:500;">Computer Vision</span>
+              <span style="background:#e0f2fe; color:#0369a1; padding:3px 10px; border-radius:12px; font-size:0.8em; font-weight:500;">Machine Learning</span>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+    <!-- <div id="news" class="bio">
+      <h1 class="md-heading text-left">
+        <i class="fa fa-tasks" aria-hidden="true"></i>
+        News
+      </h1>  
+      <ul>
+        	<li class="indented" data-date="[Feb, 2024]"> Give a talk on <a href="https://arxiv.org/pdf/2402.03675.pdf">protein-protein interaction prediction</a> to <a href="https://jian-tang.com/students/">Jian Tang's group</a>. [<a href="files/ppiretrieval.pdf">Slide</a>]</li>
+    	<li class="indented" data-date="[Dec, 2023]"> Give a talk on <a href="https://arxiv.org/pdf/2304.14621.pdf">structure-based molecule design</a> at LoG2023 Montreal. [<a href="files/mudiff.pdf">Slide</a>][<a href="https://www.youtube.com/watch?v=Z5l-gaV-DUo">Video</a>]</li>
+        	<li class="indented" data-date="[Nov, 2023]"> One paper accepted to 2nd Learning on Graphs Conference.</li>
+        	<li class="indented" data-date="[Oct, 2023]"> One paper accepted to 37th Conference on Neural Information Processing Systems.</li>
+        	<li class="indented" data-date="[Sep, 2023]"> One paper accepted to 12th International Conference on Complex Networks and their Applications.</li>
+       	<li class="indented" data-date="[Oct, 2022]"> One paper accepted to 36th Conference on Neural Information Processing Systems, GLFrontiers, and selected for <b><span style="color: red;">Oral</span></b> presentation.</li>
+       	<li class="indented" data-date="[Oct, 2022]"> Two papers accepted to 36th Conference on Neural Information Processing Systems, and one paper selected for <b><span style="color: red;">Spotlight</span></b> presentation.</li>
+      </ul>
+    </div> -->
+  <!-- =======================
+         News
+         ======================= -->
+  <div id="news" class="bio news">
+  <h1 class="md-heading text-left news-heading">
+    <span class="news-icon" aria-hidden="true">
+      <!-- Color bullhorn (inline SVG) -->
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="hornGrad" x1="2" y1="4" x2="22" y2="20" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ff4d6d"/>
+            <stop offset="0.5" stop-color="#ffb703"/>
+            <stop offset="1" stop-color="#4d96ff"/>
+          </linearGradient>
+          <linearGradient id="waveGrad" x1="18" y1="6" x2="24" y2="18" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#22c55e"/>
+            <stop offset="1" stop-color="#06b6d4"/>
+          </linearGradient>
+        </defs>
+
+        <!-- horn body -->
+        <path d="M3.6 11.1c0-.7.6-1.3 1.3-1.3h2.2l8.4-3.7c.9-.4 1.9.2 1.9 1.2v9.4c0 1-1 1.6-1.9 1.2l-8.4-3.7H4.9c-.7 0-1.3-.6-1.3-1.3v-2z"
+              fill="url(#hornGrad)"/>
+
+        <!-- inner cone highlight -->
+        <path d="M6.9 10.2h2.1l7.8-3.4v10.4L9 13.7H6.9v-3.5z"
+              fill="#ffffff" opacity="0.28"/>
+
+        <!-- handle -->
+        <path d="M6 14.6l1.2 4c.2.6.7 1 1.3 1h1.2c.9 0 1.5-.9 1.2-1.7l-1.2-3.3H6z"
+              fill="#3b82f6" opacity="0.9"/>
+
+        <!-- waves -->
+        <path d="M19 8.4c1 .9 1.6 2.2 1.6 3.6S20 14.7 19 15.6"
+              stroke="url(#waveGrad)" stroke-width="1.9" stroke-linecap="round"/>
+        <path d="M20.9 6.5c1.6 1.5 2.6 3.4 2.6 5.5s-1 4-2.6 5.5"
+              stroke="url(#waveGrad)" stroke-width="1.9" stroke-linecap="round" opacity="0.85"/>
+      </svg>
+    </span>
+
+    News
+    <span class="news-subtitle">Recent Updates</span>
+  </h1>
+
+  <div class="news-feed">
+    <!-- Latest update first -->
+    <div class="news-item">
+      <span class="news-date">Feb 2026</span> · <span class="news-tag tag-paper">Paper</span> <span class="news-title">CVPR 2026 paper accepted (Highlight)</span> · <span class="news-detail">Congratulations for Dr. Gao!</span>
+    </div>
+  </div>
+</div>
+
+    <!-- =======================
+         Publications
+         ======================= -->
+
+    <div id="publications" class="publications">
+      <h1 class="md-heading text-left">
+        <i class="fa fa-file" aria-hidden="true"></i>
+        Publications
+        <span class="pub-toggle-group">
+          <button id="pub-toggle-selected" class="pub-toggle-btn selected" onclick="togglePublications('selected')">Selected</button>
+          <button id="pub-toggle-full" class="pub-toggle-btn" onclick="togglePublications('full')">Full</button>
+        </span>
+      </h1>
+      <p style="font-size:0.9em; color:#555; margin-bottom:4px;">(C: Conference &nbsp;|&nbsp; J: Journal &nbsp;|&nbsp; P: Preprint &nbsp;|&nbsp; *: Equal Contribution)</p>
+
+      <div class="pub-list">
+
+        <h3 style="margin:20px 0 10px; color:#1d4ed8; border-bottom:1px solid #dbeafe; padding-bottom:4px;">Conference</h3>
+
+        <!-- C1 - CVPR 2026 (latest) -->
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/cvpr26.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[C1] C²FG: Control Classifier-Free Guidance via Score Discrepancy Analysis</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jiayang Gao*, <b><u>Tianyi Zheng</u>*</b>, Jiayang Zou, Fengxiang Yang, Shice Liu, Luyao Fan, Zheyu Zhang, Hao Zhang, Jinwei Chen, Peng-Tao Jiang, Bo Li, Jia Wang
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://arxiv.org/abs/2603.08155" target="_blank">Paper</a>]</span>
+              <span class="place">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026 <span class="news-tag tag-highlight">Highlight</span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- C2 - ICLR 2026 -->
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/iclr26.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[C2] I-DRUID: Layout to Image Generation via Instance-Disentangled Representation and Unpaired Data</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Fengxiang Yang, <b><u>Tianyi Zheng</u></b>, Bangjie Yin, Shice Liu, Jinwei Chen, Peng-Tao Jiang, Bo Li
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://openreview.net/forum?id=yB7FIFwJwN" target="_blank">Paper</a>]</span>
+              <span class="place">International Conference on Learning Representations (ICLR) 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- C3 - AAAI 2026 -->
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/aaai26.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[C3] Bidirectional Noise Injection: Enhancing Diffusion Models via Coordinated Input-Output Perturbation</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b><u>Tianyi Zheng</u></b>, Jiayang Gao, Peng-Tao Jiang, Fengxiang Yang, Ben Wan, Hao Zhang, Jinwei Chen, Jia Wang, Bo Li
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://underline.io/events/501/sessions/21536/lecture/139180-bidirectional-noise-injection-enhancing-diffusion-models-via-coordinated-input-output-perturbation?tab=abstract" target="_blank">Paper</a>]</span>
+              <span class="place">AAAI Conference on Artificial Intelligence (AAAI) 2026 <span class="news-tag tag-oral">Oral</span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- C4 - ICASSP 2025 -->
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/icassp25.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[C4] Pruning for Sparse Diffusion Models based on Gradient Flow</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Ben Wan, <b><u>Tianyi Zheng</u></b>, Zhaoyu Chen, Yuxiao Wang, Jia Wang
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://ieeexplore.ieee.org/document/10890532/" target="_blank">Paper</a>]</span>
+              <span class="place">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2025 <span class="news-tag tag-oral">Oral</span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- C5 - ACM MM 2024 -->
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/mm24.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[C5] Non-uniform Timestep Sampling: Towards Faster Diffusion Model Training</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b><u>Tianyi Zheng</u></b>, Cong Geng, Peng-Tao Jiang, Ben Wan, Hao Zhang, Jinwei Chen, Jia Wang, Bo Li
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://dl.acm.org/doi/10.1145/3664647.3680912" target="_blank">Paper</a>]</span>
+              <span class="place">ACM International Conference on Multimedia (MM) 2024</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- C6 - ECCV 2024 -->
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/eccv24.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[C6] Beta-Tuned Timestep Diffusion Model</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b><u>Tianyi Zheng</u></b>, Peng-Tao Jiang, Ben Wan, Hao Zhang, Jinwei Chen, Jia Wang, Bo Li
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://link.springer.com/chapter/10.1007/978-3-031-72646-0_7" target="_blank">Paper</a>]</span>
+              <span class="place">European Conference on Computer Vision (ECCV) 2024</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- C7 - ICASSP 2024 (oldest) -->
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/icassp24.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[C7] FAMIM: A Novel Frequency-Domain Augmentation Masked Image Model Framework for Domain Generalizable Face Anti-Spoofing</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b><u>Tianyi Zheng</u></b>, Qinji Yu, Zhaoyu Chen, Jia Wang
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://ieeexplore.ieee.org/document/10448479" target="_blank">Paper</a>]</span>
+              <span class="place">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2024 <span class="news-tag tag-oral">Oral</span></span>
+            </div>
+          </div>
+        </div>
+
+        <h3 style="margin:24px 0 10px; color:#1d4ed8; border-bottom:1px solid #dbeafe; padding-bottom:4px;">Journal</h3>
+
+        <!-- J1 - PAMI 2026 (latest) -->
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/pami26.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[J1] Bidirectional Beta-Tuned Diffusion Model</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b><u>Tianyi Zheng</u></b>, Jiayang Zou, Peng-Tao Jiang, Hao Zhang, Jinwei Chen, Jia Wang, Bo Li
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://ieeexplore.ieee.org/document/11143960" target="_blank">Paper</a>]</span>
+              <span class="place">IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI) 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- J2 - Neural Networks 2025 (Gradient Flow) -->
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/nn1.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[J2] Gradient Flow-Based Iterative Pruning for Efficient and High-Quality Lightweight Diffusion Models</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Ben Wan, <b><u>Tianyi Zheng</u></b>, Yuxiao Wang, Jia Wang
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://www.sciencedirect.com/science/article/pii/S0893608025011086" target="_blank">Paper</a>]</span>
+              <span class="place">Neural Networks (NN) 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- J3 - Neurocomputing 2025 (EnfoMax) -->
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/nc251.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[J3] EnfoMax: Domain Entropy and Mutual Information Maximization for Domain Generalized Face Anti-Spoofing</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b><u>Tianyi Zheng</u></b>, Bo Li, Shuang Wu, Ben Wan, Guodong Mu, Shice Liu, Shouhong Ding, Jia Wang
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://www.sciencedirect.com/science/article/pii/S0925231225020600" target="_blank">Paper</a>]</span>
+              <span class="place">Neurocomputing (NC) 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- J4 - Neurocomputing 2025 (Fokker-Planck) -->
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/nc2.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[J4] Enhancing the Accuracy of Generative Adversarial Networks with Fokker-Planck Equations</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Ben Wan, <b><u>Tianyi Zheng</u></b>, Zhaoyu Chen, Jia Wang
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://www.sciencedirect.com/science/article/abs/pii/S0925231225008306" target="_blank">Paper</a>]</span>
+              <span class="place">Neurocomputing (NC) 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- J5 - Neural Networks 2025 (EBM-WGF) -->
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/nn2.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[J5] EBM-WGF: Training Energy-based Models with Wasserstein Gradient Flow</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Ben Wan, Cong Geng, <b><u>Tianyi Zheng</u></b>, Jia Wang
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://www.sciencedirect.com/science/article/abs/pii/S0893608025001790" target="_blank">Paper</a>]</span>
+              <span class="place">Neural Networks (NN) 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- J6 - IEEE T-IFS 2024 (oldest) -->
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/tifs24.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[J6] MFAE: Masked Frequency Autoencoders for Domain Generalization Face Anti-Spoofing</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b><u>Tianyi Zheng</u></b>, Bo Li, Shuang Wu, Ben Wan, Guodong Mu, Shice Liu, Shouhong Ding, Jia Wang
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://ieeexplore.ieee.org/document/10453286" target="_blank">Paper</a>]</span>
+              <span class="place">IEEE Transactions on Information Forensics and Security (T-IFS) 2024</span>
+            </div>
+          </div>
+        </div>
+
+        <h3 style="margin:24px 0 10px; color:#1d4ed8; border-bottom:1px solid #dbeafe; padding-bottom:4px;">Preprint</h3>
+
+        <!-- P2 -->
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/p1.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[P2] InfoTok: Regulating Information Flow for Capacity-Constrained Shared Visual Tokenization in Unified MLLMs</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Lv Tang, <b><u>Tianyi Zheng</u></b>, Bo Li, Xingyu Li
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://arxiv.org/abs/2602.01554" target="_blank">Paper</a>]</span>
+              <span class="place">arXiv 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- P1 -->
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/p1_fig.png" alt="paper preview">
+          </div>
+          <div class="pub-right">
+            <div class="title">[P1] Towards Generalizable Data Protection With Transferable Unlearnable Examples</div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Bin Fang, Bo Li, Shuang Wu, <b><u>Tianyi Zheng</u></b>, Shouhong Ding, Ran Yi, Lizhuang Ma
+              </font>
+            </div>
+            <div class="pub-bottom">
+              <span class="tags">[<a class="tag" href="https://arxiv.org/abs/2305.11191" target="_blank">Paper</a>]</span>
+              <span class="place">arXiv 2023</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script>
+      function togglePublications(mode) {
+        const selectedBtn = document.getElementById('pub-toggle-selected');
+        const fullBtn = document.getElementById('pub-toggle-full');
+        const pubs = document.querySelectorAll('.pub');
+
+        // Get all section headers
+        const sections = {
+          'Conference': { header: null, items: [], counter: 0 },
+          'Journal': { header: null, items: [], counter: 0 },
+          'Preprint': { header: null, items: [], counter: 0 }
+        };
+
+        // Group pubs by section
+        let currentSection = null;
+        pubs.forEach(pub => {
+          const prev = pub.previousElementSibling;
+          if (prev && prev.tagName === 'H3') {
+            currentSection = prev.textContent.trim();
+          }
+          if (currentSection && sections[currentSection]) {
+            sections[currentSection].items.push(pub);
+          }
+        });
+
+        if (mode === 'selected') {
+          selectedBtn.classList.add('selected');
+          fullBtn.classList.remove('selected');
+
+          // Show selected only, renumber (newest = highest number)
+          Object.keys(sections).forEach(section => {
+            const items = sections[section].items;
+            const selectedItems = items.filter(pub => pub.getAttribute('data-selected') === 'true');
+            const total = selectedItems.length;
+            selectedItems.forEach((pub, idx) => {
+              pub.style.display = 'block';
+              const title = pub.querySelector('.title');
+              const origLabel = title.textContent.match(/^\[(C|J|P)\d+\]/);
+              if (origLabel) {
+                title.textContent = title.textContent.replace(origLabel[0], `[${origLabel[1]}${total - idx}]`);
+              }
+            });
+            // Hide non-selected
+            items.forEach(pub => {
+              if (pub.getAttribute('data-selected') !== 'true') {
+                pub.style.display = 'none';
+              }
+            });
+          });
+        } else {
+          selectedBtn.classList.remove('selected');
+          fullBtn.classList.add('selected');
+
+          // Show all, renumber (newest = highest number)
+          Object.keys(sections).forEach(section => {
+            const items = sections[section].items;
+            const total = items.length;
+            items.forEach((pub, idx) => {
+              pub.style.display = 'block';
+              const title = pub.querySelector('.title');
+              const origLabel = title.textContent.match(/^\[(C|J|P)\d+\]/);
+              if (origLabel) {
+                title.textContent = title.textContent.replace(origLabel[0], `[${origLabel[1]}${total - idx}]`);
+              }
+            });
+          });
+        }
+      }
+
+      // Initialize: show selected only
+      togglePublications('selected');
+    </script>
+
+    <script>
+      const repos = [
+        { owner: "alibaba-damo-academy", repo: "WorldVLA", starId: "star-count", forkId: "fork-count" },
+        { owner: "GAI4Manipulation", repo: "AwesomeGAIManipulation", starId: "star-count-2", forkId: "fork-count-2" },
+        { owner: "Jun-CEN", repo: "CMDFusion", starId: "star-count-3", forkId: "fork-count-3" },
+        { owner: "Jun-CEN", repo: "SegmentAnyRGBD", starId: "star-count-4", forkId: "fork-count-4" },
+        { owner: "Jun-CEN", repo: "PSL", starId: "star-count-5", forkId: "fork-count-5" },
+        { owner: "Jun-CEN", repo: "Unified-Open-Set-Recognition", starId: "star-count-6", forkId: "fork-count-6" },
+        { owner: "Jun-CEN", repo: "Open-world-3D-semantic-segmentation", starId: "star-count-7", forkId: "fork-count-7" },
+        { owner: "Jun-CEN", repo: "Open-World-Semantic-Segmentation", starId: "star-count-8", forkId: "fork-count-8" },
+        { owner: "Jingkang50", repo: "PSG4D", starId: "star-count-9", forkId: "fork-count-9" },
+        { owner: "youquanl", repo: "Segment-Any-Point-Cloud", starId: "star-count-10", forkId: "fork-count-10" }
+      ];
+
+      async function loadGitHubStats() {
+        for (const { owner, repo, starId, forkId } of repos) {
+          try {
+            const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
+            if (!res.ok) throw new Error("GitHub API error");
+            const data = await res.json();
+            document.getElementById(starId).innerText = data.stargazers_count ?? "-";
+            document.getElementById(forkId).innerText = data.forks_count ?? "-";
+          } catch (e) {
+            console.error(`Failed to load stats for ${owner}/${repo}`, e);
+            document.getElementById(starId).innerText = "-";
+            document.getElementById(forkId).innerText = "-";
+          }
+        }
+      }
+
+      loadGitHubStats();
+    </script>
+  <!-- =======================
+         Experiences (timeline)
+         ======================= -->
+    <div id="timeline" class="timeline-brief">
+        <h1 class="md-heading text-left">
+          <i class="fa fa-briefcase" aria-hidden="true"></i>
+          Research Experiences
+        </h1>
+
+        <div class="timeline-body">
+          <div class="timeline-item">
+            <div class="timeline-org">
+                <img src="logo/vivo.png" alt="vivo" style="height:20px; vertical-align:middle; margin-right:6px;"><a href="https://github.com/vivoCameraResearch" target="_blank">BlueImage Lab, vivo</a>
+            </div>
+            <div class="timeline-title">
+                <span style="background:#1d4ed8;color:#fff;border-radius:3px;padding:1px 5px;font-size:0.75em;margin-right:4px;">Work</span>Researcher
+            </div>
+            <div class="timeline-date">
+              Jul. 2025 - Present
+            </div>
+            <div class="timeline-desc">
+              <div class="timeline-host">
+                <ul>
+                  <li>Focused on improving diffusion model architectures, including training efficiency, sampling quality, and controllability.</li>
+                  <li>Explored multimodal large language models (MLLMs), with emphasis on visual understanding and generation alignment.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-body">
+          <div class="timeline-item">
+            <div class="timeline-org">
+                <img src="logo/ams.png" alt="AMS" style="height:20px; vertical-align:middle; margin-right:6px;"><a href="https://e.qq.com/ads" target="_blank">Tencent AMS</a>
+            </div>
+            <div class="timeline-title">
+                <span style="background:#6b7280;color:#fff;border-radius:3px;padding:1px 5px;font-size:0.75em;margin-right:4px;">Intern</span>Research Intern
+            </div>
+            <div class="timeline-date">
+              Mar. 2025 - Jun. 2025
+            </div>
+            <div class="timeline-desc">
+              <div class="timeline-host">
+                <ul>
+                  <li>Investigated controllable image generation, focusing on the automated generation of advertising assets.</li>
+                  <li>Explored techniques for achieving fine-grained control over generative outputs in diffusion-based frameworks.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-body">
+          <div class="timeline-item">
+            <div class="timeline-org">
+                <img src="logo/vivo.png" alt="vivo" style="height:20px; vertical-align:middle; margin-right:6px;"><a href="https://github.com/vivoCameraResearch" target="_blank">BlueImage Lab, vivo</a>
+            </div>
+            <div class="timeline-title">
+                <span style="background:#6b7280;color:#fff;border-radius:3px;padding:1px 5px;font-size:0.75em;margin-right:4px;">Intern</span>Research Intern
+            </div>
+            <div class="timeline-date">
+              Oct. 2023 - Mar. 2025
+            </div>
+            <div class="timeline-desc">
+              <div class="timeline-host">
+                <ul>
+                  <li>Investigated the application and improvement of diffusion models for image generation and edit tasks.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-body">
+          <div class="timeline-item">
+            <div class="timeline-org">
+                <img src="logo/youtu.jpg" alt="Youtu" style="height:20px; vertical-align:middle; margin-right:6px;"><a href="https://open.youtu.qq.com/#/" target="_blank">Tencent Youtu Lab</a>
+            </div>
+            <div class="timeline-title">
+                <span style="background:#6b7280;color:#fff;border-radius:3px;padding:1px 5px;font-size:0.75em;margin-right:4px;">Intern</span>Research Intern
+            </div>
+            <div class="timeline-date">
+              Jan. 2022 - Oct. 2023
+            </div>
+            <div class="timeline-desc">
+              <div class="timeline-host">
+                <ul>
+                  <li>Conducted research on computer vision algorithms with a focus on self-supervised learning and representation learning for visual understanding.</li>
+                  <li>Explored domain generalization methods to improve model robustness across different data distributions, particularly for face anti-spoofing.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-body">
+          <div class="timeline-item">
+            <div class="timeline-org">
+                <img src="logo/midea.png" alt="Midea" style="height:20px; vertical-align:middle; margin-right:6px;"><a href="https://ai.midea.com/#/" target="_blank">Midea AI Lab</a>
+            </div>
+            <div class="timeline-title">
+                <span style="background:#6b7280;color:#fff;border-radius:3px;padding:1px 5px;font-size:0.75em;margin-right:4px;">Intern</span>Research Intern
+            </div>
+            <div class="timeline-date">
+              Jul. 2021 - Dec. 2021
+            </div>
+            <div class="timeline-desc">
+              <div class="timeline-host">
+                <ul>
+                  <li>Explored efficient inference techniques for deep learning models.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <!-- <div class="wrapper">
+      <div id="codebase" class="bio">
+        <div class="bio-body" style="overflow:hidden;">
+          <h1 class="md-heading text-left">
+            <i class="fa fa-tasks" aria-hidden="true"></i>
+            GitHub
+          </h1>  
+          <div class="card-container">
+            ...
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <!-- =======================
+         Awards (timeline)
+         ======================= -->
+    <div id="awards" class="timeline-brief">
+      <h1 class="md-heading text-left">
+        <i class="fa fa-trophy" aria-hidden="true"></i>
+        Honors &amp; Awards
+      </h1>
+  
+      <div class="timeline-body">
+          <div class="timeline-item">
+            <div class="timeline-org" style="justify-content:space-between;">
+              <span style="display:flex; align-items:center;">
+                <img class="social-icon" src="logo/byd.webp" alt="BYD" style="height:22px; width:auto; margin-right:6px;">
+                <img class="social-icon" src="logo/sjtu.png" alt="SJTU" style="height:22px; width:auto; margin-right:6px;">
+                BYD Scholarship, Shanghai Jiao Tong University
+              </span>
+              <span style="font-size:15px; font-weight:600; color:#9b3022; white-space:nowrap; margin-left:10px;">2025</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-org" style="justify-content:space-between;">
+              <span style="display:flex; align-items:center;">
+                <img class="social-icon" src="logo/xidian.png" alt="Xidian" style="height:22px; width:auto; margin-right:6px;">
+                Outstanding Graduate Scholarship, Xidian University
+              </span>
+              <span style="font-size:15px; font-weight:600; color:#9b3022; white-space:nowrap; margin-left:10px;">2020</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-org" style="justify-content:space-between;">
+              <span style="display:flex; align-items:center;">
+                <img class="social-icon" src="logo/xidian.png" alt="Xidian" style="height:22px; width:auto; margin-right:6px;">
+                Outstanding Student Scholarship, Xidian University
+              </span>
+              <span style="font-size:15px; font-weight:600; color:#9b3022; white-space:nowrap; margin-left:10px;">2017, 2018, 2019</span>
+            </div>
+          </div>
+      </div>
+
+    </div>
+    <div id="academicservices" class="bio">
+      <!-- <div class="bio-body" style="overflow:hidden;"> -->
+        <h1 class="md-heading text-left">
+          <i class="fa fa-tasks" aria-hidden="true"></i>
+          Academic Services
+        </h1>  
+      <div class="bio-body" style="overflow:hidden;">
+        <div class="service-block">
+          <div class="reviewer-title">Conference Reviewer</div>
+          <div class="reviewer-section">
+            <div class="reviewer-column">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</div>
+            <div class="reviewer-column">European Conference on Computer Vision (ECCV)</div>
+            <div class="reviewer-column">IEEE/CVF International Conference on Computer Vision (ICCV)</div>
+            <div class="reviewer-column">Conference on Neural Information Processing Systems (NeurIPS)</div>
+            <div class="reviewer-column">International Conference on Learning Representations (ICLR)</div>
+            <div class="reviewer-column">International Conference on Machine Learning (ICML)</div>
+            <div class="reviewer-column">AAAI Conference on Artificial Intelligence (AAAI)</div>
+            <div class="reviewer-column">International Joint Conference on Artificial Intelligence (IJCAI)</div>
+            <div class="reviewer-column">ACM International Conference on Multimedia (ACM MM)</div>
+            <div class="reviewer-column">International Conference on Artificial Intelligence and Statistics (AISTATS)</div>
+          </div>
+        </div>
+
+        <div class="service-block">
+          <div class="reviewer-title">Journal Reviewer</div>
+          <div class="reviewer-section">
+            <div class="reviewer-column">International Journal of Computer Vision (IJCV)</div>
+            <div class="reviewer-column">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</div>
+            <div class="reviewer-column">Knowledge-Based Systems (KBS)</div>
+            <div class="reviewer-column">Transactions on Machine Learning Research (TMLR)</div>
+          </div>
+        </div>
+
+        <div class="service-block">
+          <div class="reviewer-title">Teaching Assistant</div>
+          <div class="reviewer-section">
+            <div class="reviewer-column">EE453: Elements of Information Theory, Shanghai Jiao Tong University</div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+
+  </div>
+</div>
+<!-- =======================
+     End main content
+     ======================= -->
+
+<!-- ClustrMaps visitor globe -->
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="max-width: 320px; width: 100%;">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=OHXTeZczSYgdByPKbf9vl8GCiakXAk5SSRESfYNKKi0"></script>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Personal Email:</li>
+          <li><a href="mailto:tianyizheng18@gmail.com">tianyizheng18 (at) gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+          <a href="https://scholar.google.com.hk/citations?user=ojUZAN0AAAAJ&hl=zh-CN" target="_blank" class="icon-button github">
+          <i class="ai ai-google-scholar-square icon-linkedin"></i>
+            <span></span>
+          </a>
+
+
+
+          <!-- <a href="https://www.linkedin.com/in/jun-cen-45b995219/" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-linkedin icon-linkedin"></i>
+            <span></span>
+          </a> -->
+
+          <a href="https://orcid.org/0009-0007-5270-4746" target="_blank" class="icon-button orcid">
+            <i class="ai ai-orcid"></i>
+            <span></span>
+          </a>
+          <a href="mailto:tyzheng@sjtu.edu.cn" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-envelope icon-linkedin"></i>
+            <span></span>
+          </a>
+          <!-- <a href="work/Resume_Jun_CEN.pdf" target="_blank" class="icon-button github">
+            <i class="ai ai-cv icon-github"></i>
+            <span></span>
+          </a> -->
+          <!-- <a href="https://www.xiaohongshu.com/user/profile/616ae887000000000201f2fa" class="icon-button xiaohongshu" aria-label="小红书" target="_blank" rel="noopener noreferrer">
+            <i> <img src="https://cdn.simpleicons.org/xiaohongshu/FF2D55" alt="" width="45" height="45" style="vertical-align:middle;"> </i>
+            <span></span>
+          </a> -->
+      </div>
+
+	<div class="footer-col footer-col-3">
+    	<!--<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwillhua127.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+	<!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?user=Lxe71v4AAAAJ&hl=en&url=https%3A%2F%2Fscholar.google.com%2Fcitations&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+		<p class="text">Last updated: Apr, 2026.<br>The style of this website is borrowed from <a href='https://yuexin.netlify.app/' target="_blank">Yue Xin's</a>.</p>
+	</div>
+  </div>
+  </div>
+
+</footer>
+    <div class="back-to-top">Top</div>
+
+
+<script type="text/javascript">
+(function() {
+  var button = document.querySelector('.back-to-top');
+  if (!button) return;
+
+  var offset = 220;
+
+  function updateButtonState() {
+    button.classList.toggle('is-visible', window.scrollY > offset);
+  }
+
+  window.addEventListener('scroll', updateButtonState, { passive: true });
+  button.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  updateButtonState();
+})();
+</script>
+<script type="text/javascript">
+(function() {
+  var root = document.documentElement;
+  var toggle = document.getElementById('theme-toggle');
+  var label = toggle ? toggle.querySelector('.theme-label') : null;
+  var storageKey = 'site-theme';
+  if (!toggle) return;
+
+  function applyTheme(theme) {
+    var isDark = theme === 'dark';
+    root.setAttribute('data-theme', theme);
+    toggle.setAttribute('data-mode', theme);
+    toggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+    if (label) {
+      label.textContent = isDark ? 'Dark Mode' : 'Light Mode';
+    }
+  }
+
+  var saved = null;
+  try {
+    saved = window.localStorage.getItem(storageKey);
+  } catch (e) {
+    saved = null;
+  }
+  var initialTheme = saved === 'dark' || saved === 'light' ? saved : 'light';
+  applyTheme(initialTheme);
+
+  toggle.addEventListener('click', function() {
+    var current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    try {
+      window.localStorage.setItem(storageKey, next);
+    } catch (e) {
+      // ignore storage failures
+    }
+  });
+})();
+</script>
+  </body>
+
+<!--
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60071442-1', 'auto');
+  ga('send', 'pageview');
+</script>
+-->
+
+<!--<script src="custom-pub.js"></script>-->
+</html>
+
+
